@@ -8,11 +8,11 @@ public final class TipoPagamento {
         this.valor = valor;
     }
 
-    public double credito(double valor){
+    public double credito(){
         return valor*1.05;
     }
 
-    public double debito(double valor){
+    public double debito(){
         return valor;
     }
 
