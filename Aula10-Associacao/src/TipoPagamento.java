@@ -1,6 +1,7 @@
 public final class TipoPagamento {
     
     private double valor;
+    
     public double getValor() {
         return this.valor;
     }
@@ -8,11 +9,12 @@ public final class TipoPagamento {
         this.valor = valor;
     }
 
-    public double credito(){
+    
+    public double credito() {
         return valor*1.05;
     }
 
-    public double debito(){
+    public double debito() {
         return valor;
     }
 

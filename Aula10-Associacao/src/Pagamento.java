@@ -1,6 +1,8 @@
 public class Pagamento {
     
     private TipoPagamento tipoPagamento;
+
+    
     public TipoPagamento getTipoPagamento() {
         return this.tipoPagamento;
     }

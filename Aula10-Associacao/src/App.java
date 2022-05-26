@@ -4,9 +4,10 @@ public class App {
         Pagamento p1 = new Pagamento();
         TipoPagamento tp = new TipoPagamento();
 
-        tp.setValor(100);
         
-        tp.credito();
+        tp.setValor(100);
+
+        
         System.out.println(tp.toString());
 
         System.out.println(tp.credito());
